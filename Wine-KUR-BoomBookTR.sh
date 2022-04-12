@@ -64,7 +64,7 @@ esac
 
 echo 
 sleep 4
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 2 ]]; then
     printf "
@@ -116,7 +116,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 3 ]]; then
     printf "
@@ -169,7 +169,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 4 ]]; then
     printf "
@@ -222,7 +222,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 5 ]]; then
     printf "
@@ -276,7 +276,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 6 ]]; then
     printf "
@@ -328,7 +328,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 7 ]]; then
     printf "
@@ -381,7 +381,7 @@ sudo apt autoclean -y
 "
 
 sleep 3
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 8 ]]; then
 printf "
@@ -392,7 +392,7 @@ printf "
 sudo wine --version
 echo 
 sleep 4
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 9 ]]; then
 printf "
@@ -403,7 +403,7 @@ printf "
 sudo winecfg
 echo 
 sleep 4
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 10 ]]; then
 printf "
@@ -420,7 +420,7 @@ printf "
 
 "
 sleep 5 
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 11 ]]; then
 printf "\e[31m
@@ -447,7 +447,7 @@ printf "\e[32m
 "
 sleep 3
 
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $kaldir == H || $kaldir == h ]]; then
 printf "\e[32m
@@ -456,7 +456,7 @@ printf "\e[32m
 "
 sleep 2
 
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 
 fi
 
@@ -480,7 +480,7 @@ printf "\e[32m
 ║ 『a』 Ana Menü
 ╠═════════════════════════
 ║ 『Github』 \e[31m@BoomBookTR\e[32m
-║ 
+║ 『Github Linki:』 \e[31m@https://github.com/BoomBookTR/Pardus-ETAP-19-Wine-Kurulumu\e[32m
 ║ 『Bilgiler』
 ║  Bu program \e[31mİsa AKYER\e[32m
 ║  tarafından wine 
@@ -493,5 +493,5 @@ printf "\e[32m
 ╚═════════════════════════
 "
 sleep 7
-bash Wine-KUR-BoomBookTR.sh
+bash Wine-KUR-Pardus-ETAP.sh
 fi
