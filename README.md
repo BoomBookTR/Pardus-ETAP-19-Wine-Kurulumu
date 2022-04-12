@@ -52,7 +52,7 @@ Pardus-ETAP sürüm için güncel Wine kurulumu çok uğraştırıcı olabiliyor
 
 # Notlar
 
-- Kurulum https://indir.pardus.org.tr/ISO/Etap19/ linkteki farklı iso dosyalarına test edildi.
+- Kurulum https://indir.pardus.org.tr/ISO/Etap19/ linkteki farklı iso dosyalarında test edildi.
 
 - `Pardus-Etap-19.0-Beta-13-3.iso` nolu kalıba kadar olan kurulumlarda normal yöntem sorunsuz çalışırken `Pardus-Etap-19.0-Beta-14.iso ve Pardus-Etap-19.0-Beta-14-1.iso` kalıp dosyalarında `force (zorlama) yöntemi` adını verdiğim yöntem ile kurulum yapılabiliyor. Bu sürüm yayınlanmamış ve sanırım test ediliyor. Kısaca eksik dosyalar olduğundan yükleme gerçekleştirmek için ek seçenekler kullanmak gerekiyor.
 
