@@ -1,8 +1,9 @@
 #!/bin/bash
 
 clear
-
-printf "\e[32m
+# printf " \033[8;40;100t ===> \033[8;height;widtht
+# printf "\e[32m 
+printf "\e[32m \033[8;40;100t
 ╔═╦══╦═╦══╦╦╦══╗
 ║╬║╔╗║╬╠╗╗║║║══╣
 ║╔╣╠╣║╗╬╩╝║║╠══║
@@ -37,7 +38,7 @@ printf "\e[32m
 read -e -p $'╚══════〙İşlem Numarası ▶ ' secim
 
 if [[ $secim == x || $secim == X ]]; then
-printf "
+printf " \033[8;40;100t
 『!』Kapatılıyor...
 "
     sleep 2
@@ -45,7 +46,7 @@ printf "
 
 
 elif [[ $secim == 1 ]]; then
-printf "
+printf " \033[8;40;100t
 『!』Pardus-ETAP Güncellenecek...
 
 "
@@ -67,7 +68,7 @@ sleep 4
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 2 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Stabil Kurulumu Başlıyor...
 
 "
@@ -119,7 +120,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 3 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Stabil FORCE YÖNTEMİ ile Kurulumu Başlıyor...
 
 "
@@ -172,7 +173,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 4 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Development (Geliştirici) Kurulumu Başlıyor...
 
 "
@@ -225,7 +226,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 5 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Development (Geliştirici) FORCE YÖNTEMİ ile Kurulumu Başlıyor...
 
 "
@@ -279,7 +280,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 6 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Staging (Geliştirme) Kurulumu Başlıyor...
 
 "
@@ -331,7 +332,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 7 ]]; then
-    printf "
+    printf " \033[8;40;100t
 『!』Wine Staging (Geliştirme) FORCE YÖNTEMİ ile Kurulumu Başlıyor...
 
 "
@@ -384,7 +385,7 @@ sleep 3
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 8 ]]; then
-printf "
+printf " \033[8;40;100t
 『!』Wine Versiyon Bilgisi Al
 
 "
@@ -395,7 +396,7 @@ sleep 4
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 9 ]]; then
-printf "
+printf " \033[8;40;100t
 『!』Wine Ayarları ve Konfigurasyonunu Yap (winecfg)
 
 "
@@ -406,12 +407,12 @@ sleep 4
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 10 ]]; then
-printf "
+printf " \033[8;40;100t
 『!』Test Programı Açılıyor...
 
 "
 sleep 1
-printf "
+printf " \033[8;40;100t
 『!』Test Programı Başlatılamadı
 『!』Lütfen Manüel Olarak Çalıştırın 
 『!』test > bin > Debug > test.exe
@@ -423,7 +424,7 @@ sleep 5
 bash Wine-KUR-Pardus-ETAP.sh
 
 elif [[ $secim == 11 ]]; then
-printf "\e[31m
+printf "\e[31m \033[8;40;100t
 『!』Wine Kaldırılsın mı ? [E|H]
 
 "
@@ -441,7 +442,7 @@ sudo apt --purge remove wine* -y
 
 sudo apt autoremove -y
 
-printf "\e[32m
+printf "\e[32m 
 『!』Wine Kaldırıldı...
 
 "
@@ -461,7 +462,7 @@ bash Wine-KUR-Pardus-ETAP.sh
 fi
 
 elif [[ $secim == 12 ]]; then
-printf "\e[32m
+printf "\e[32m \033[8;40;100t
 ╔═╦══╦═╦══╦╦╦══╗
 ║╬║╔╗║╬╠╗╗║║║══╣
 ║╔╣╠╣║╗╬╩╝║║╠══║
@@ -479,8 +480,8 @@ printf "\e[32m
 ╠═════════════════════════
 ║ 『a』 Ana Menü
 ╠═════════════════════════
-║ 『Github』 \e[31m@BoomBookTR\e[32m
-║ 『Github Linki:』 \e[31mhttps://github.com/BoomBookTR/Pardus-ETAP-19-Wine-Kurulumu\e[32m
+║ 『Github』 \e[31mBoomBookTR\e[32m
+║ 『Github Linki:』 \e[31m@https://github.com/BoomBookTR/Pardus-ETAP-19-Wine-Kurulumu\e[32m
 ║ 『Bilgiler』
 ║  Bu program \e[31mİsa AKYER\e[32m
 ║  tarafından wine 
